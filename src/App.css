@@ -3,6 +3,10 @@
   text-align: center;
 }
 
+.App-header-title {
+  margin: 20px 0px;
+}
+
 .App-logo {
   max-width: 100px;
   display: block;

@@ -8,7 +8,9 @@ function App() {
       <div className="container">
       <header className="App-header">
         <img src={logo} className="App-logo img-fluid" alt="logo" />
-        Hello!
+        <div className="App-header-title">
+        What word do you want to look up? 🧐
+        </div>
       </header>
       <main>
         <Dictionary />
