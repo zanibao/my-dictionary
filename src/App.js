@@ -1,18 +1,13 @@
-import logo from "./logo.jpg";
 import "./App.css";
 import Dictionary from "./Dictionary";
 import Footer from "./Footer";
+import Header from "./Header";
 
 function App() {
   return (
     <div className="App">
       <div className="container">
-        <header className="App-header">
-          <img src={logo} className="App-logo img-fluid" alt="logo" />
-          <div className="App-header-title">
-            What word do you want to look up? 🧐
-          </div>
-        </header>
+        <Header />
         <main>
           <Dictionary />
         </main>
